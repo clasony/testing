@@ -7,3 +7,5 @@ Inserting a new line to check reset mixed.
 commiting objects
 
 Testing to push 
+
+SSH key is created. Testing to push now. 

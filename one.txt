@@ -4,6 +4,7 @@ now testing this file for reset
 
 Inserting a new line to check reset mixed.
 
+
 commiting objects
 
 Testing to push 
@@ -11,3 +12,4 @@ Testing to push
 SSH key is created. Testing to push now.
 
 SSH key is created again - windows.
+

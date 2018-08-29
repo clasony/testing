@@ -1,0 +1,2 @@
+Now this is created to check or commit only once
+for creating a stash.

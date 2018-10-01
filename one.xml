@@ -1,0 +1,40 @@
+<project name="months" basedir="." default="">
+
+<property name="lang1" value="telugu"/>
+<property name="lang2" value="english"/>
+<property name="lang3" value="tamil"/>
+
+
+<target name="jan">
+	<echo>welcome to ant class</echo>
+	<echo message="jan method welcomes"/>
+	<echo message="lang1 is : ${lang1}"/>
+	<echo message="lang2 is : ${lang2}"/>
+	<echo message="lang3 is : ${lang3}"/>
+</target>
+
+<target name="feb">
+	<echo>welcome to ant class</echo>
+	<echo message="feb method welcomes"/>
+	<echo message="lang1 is : ${lang1}"/>
+	<echo message="lang2 is : ${lang2}"/>
+	<echo message="lang3 is : ${lang3}"/>
+</target>
+
+<target name="mar">
+	<echo>welcome to ant class</echo>
+	<echo message="mar method welcomes"/>
+	<echo message="lang1 is : ${lang1}"/>
+	<echo message="lang2 is : ${lang2}"/>
+	<echo message="lang3 is : ${lang3}"/>
+	
+	<antcall target="jan">
+		<param name="lang1" value="xxxx"/>
+		<param name="lang2" value="yyyy"/>
+		<param name="lang3" value="zzzz"/>
+	</antcall>
+	
+</target>
+
+
+</project>
